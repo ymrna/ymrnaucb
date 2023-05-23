@@ -94,6 +94,7 @@
 body {
 	background:black;
 	margin: 0;
+
 }
 
 h1,h2,h3, h4 {
@@ -156,8 +157,6 @@ table, tr, td, th{
 	border: 1px solid;
 	letter-spacing:0px ; 
 	color:#ffffff
-	
-
 
 }
 
@@ -288,6 +287,13 @@ tr:hover {background-color: #48DA9B;}
 		height: 10px;
 		margin:3px;
 		;
+	}
+
+	.logo{
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+		
 	}
 
 .hello_content,
@@ -426,12 +432,4 @@ tr:hover {background-color: #48DA9B;}
 .education_content {
 	margin-top: 20px;
 }
-	/* .education_content p {
-		margin: 0;
-		width: 370px;
-		float: right;
-	}
-	.education_content ul {
-		float: right;
-		padding-left: 40px;
-	} */
+	
