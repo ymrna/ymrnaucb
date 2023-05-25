@@ -1,4 +1,4 @@
-@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
+@import url( font-awesome-6.4.0/css/font-awesome.min.css );
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
@@ -160,7 +160,7 @@ table, tr, td, th{
 
 }
 
-tr:hover {background-color: #48DA9B;}
+tr:hover {background-color: #550062;}
 
 /* Containers size */
 
@@ -385,7 +385,7 @@ tr:hover {background-color: #48DA9B;}
 		.social_icons a span.invisible {
 			display:none;
 		}
-		.social_icons .github:hover{
+		.social_icons .github:hover{ 
 			background: #3b5998;
 			color: #dfe3ee;
 			border-top-right-radius: 50px;
@@ -419,9 +419,9 @@ tr:hover {background-color: #48DA9B;}
 		font-size: 17px;
 		width: 455px;
 	}
-	.profile_quote  .entypo-quote {
+	.profile_quote  .fa-quote-right-alt{
 		color: #3d3a41;
-		font-size: 80px;
+		font-size: 70px;
     font-style: normal;
 		position: absolute;
 		top: -20px;
